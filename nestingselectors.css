@@ -1,0 +1,28 @@
+body {
+  background: #eee; }
+
+.blog > h1 {
+  color: red;
+  border: 1px solid red;
+  width: 15%;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px; }
+.blog .entry h1 {
+  color: grey;
+  border: 1px solid blue;
+  width: 15%;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px; }
+.blog .entry p {
+  color: darkgrey;
+  font-size: 30px;
+  margin: 20px;
+  border: 1px solid green;
+  text-align: center;
+  width: 15%; }
+.blog .entry a:hover {
+  color: red; }
+
+/*# sourceMappingURL=ampersand1.css.map */

@@ -1,0 +1,39 @@
+$fontSize: 30px;
+$margin: 20px;
+body {
+  background: #eee;
+}
+.blog {
+      > h1 {
+      color: red;
+      border: 1px solid red;
+      width: 15%;
+      font-size: $fontSize;
+      text-align: center;
+      margin: $margin;
+    }
+.entry {
+
+    h1 {
+      color: grey;
+      border: 1px solid blue;
+      width: 15%;
+      font-size: $fontSize;
+      text-align: center;
+      margin: $margin;
+    }
+    p {
+      color: darkgrey;
+      font-size: $fontSize;
+      margin: $margin;
+      border: 1px solid green;
+      text-align: center;
+      width: 15%;
+    }
+    a {
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}
